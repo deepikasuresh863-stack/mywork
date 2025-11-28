@@ -1,6 +1,4 @@
 import { Link } from "react-router-dom";
-import Navbar from "./components/Navbar";
-
 
 const Navbar = () => {
   return (
@@ -26,11 +24,11 @@ const Navbar = () => {
         <li><Link style={{ color: "#fff", textDecoration: "none", fontSize: "18px" }} to="/products">Products</Link></li>
         <li><Link style={{ color: "#fff", textDecoration: "none", fontSize: "18px" }} to="/dashboard">Dashboard</Link></li>
         <li><Link style={{ color: "#fff", textDecoration: "none", fontSize: "18px" }} to="/contact">Contact</Link></li>
-        <li><Link style={{ color: "#fff", textDecoration: "none", fontSize: "18px" }} to="/cart">🛒 Cart</Link></li>
+        <li><Link style={{ color: "#fff", textDecoration: "none", fontSize: "18px" }} to="/cart">Cart 🛒</Link></li>
+
       </ul>
     </nav>
   );
-};
+}; 
 
 export default Navbar;
-
