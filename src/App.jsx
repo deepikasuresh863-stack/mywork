@@ -5,7 +5,7 @@ import Home from "./pages/Home";
 import Products from "./pages/Products";
 import Dashboard from "./pages/Dashboard";
 import Contact from "./pages/Contact";
-import Cart from "./pages/Cart";
+import Cart from "./pages/cart";
 import Navbar from "./components/Navbar";
 
 
