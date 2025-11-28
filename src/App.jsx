@@ -6,6 +6,8 @@ import Products from "./pages/Products";
 import Dashboard from "./pages/Dashboard";
 import Contact from "./pages/Contact";
 import Cart from "./pages/Cart";
+import Navbar from "./components/Navbar";
+
 
 function App() {
   return (
